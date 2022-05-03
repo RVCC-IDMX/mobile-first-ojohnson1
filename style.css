@@ -8,9 +8,9 @@ Below use @import to include one or more Google Fonts
 */
 @import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,500&display=swap");
 
-/*
-Below use @import to include one CSS reset or normalize stylesheet of your choice
-*/
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+
+/* Below use @import to include one CSS reset or normalize stylesheet of your choice */
 
 @import url(https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css);
 
@@ -73,6 +73,8 @@ nav a {
 
 p {
   font-size: 20px;
+  font-family: "Roboto";
+  font-style: normal;
 }
 
 h1 {
